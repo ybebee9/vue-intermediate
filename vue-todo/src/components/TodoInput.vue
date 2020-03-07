@@ -17,8 +17,12 @@
         },
         methods: {
           addTodo: function () {
-            console.log(this.newTodoItem);
-            localStorage.setItem(this.newTodoItem, this.newTodoItem);
+            if(this.newTodoItem !== '') {
+              var obj = { completed: false, item: this.newTodoItem }
+              console.log(this.newTodoItem);
+              // 텍스트값만 추가하는게 아니라 텍스트가 추가되었을때 Boolean값 까지 추가
+              localStorage.setItem(this.newTodoItem, JSON.stringify(obj));
+            }
             this.clearInput();
           },
           clearInput: function () {

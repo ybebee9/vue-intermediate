@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bcbf256d-8e10-42d0-8984-5ad1dcb5de41" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-todo/src/components/TodoList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-todo/src/components/TodoList.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +32,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vueIntermediate" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vue-todo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,7 +52,9 @@
       <updated>1583245969298</updated>
       <workItem from="1583245975504" duration="443000" />
       <workItem from="1583330918946" duration="5855000" />
-      <workItem from="1583384177890" duration="6651000" />
+      <workItem from="1583384177890" duration="6980000" />
+      <workItem from="1583498185683" duration="83000" />
+      <workItem from="1583558563329" duration="95000" />
     </task>
     <servers />
   </component>
@@ -61,10 +62,11 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2660" y="274" key="FileChooserDialogImpl" timestamp="1583246066778">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="592" y="217" key="FileChooserDialogImpl" timestamp="1583558639900">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583246066778" />
+    <state x="2660" y="274" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583498265166" />
+    <state x="592" y="217" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583558639900" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583386938134">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
