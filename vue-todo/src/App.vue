@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <TodoHeader></TodoHeader>
-    <TodoInput></TodoInput>
+    <TodoInput v-on:addTodoItem="addOneItem"></TodoInput>
     <TodoList v-bind:propsdata="todoItems"></TodoList>
     <TodoFooter></TodoFooter>
   </div>
@@ -17,6 +17,14 @@ export default {
   data: function(){
     return {
       todoItems: []
+    }
+  },
+  methods: {
+    addOneItem: function (todoItem) {
+      var obj = { completed: false, item: todoItem }
+      // 텍스트값만 추가하는게 아니라 텍스트가 추가되었을때 Boolean값 까지 추가
+      localStorage.setItem(todoItem, JSON.stringify(obj));
+      this.todoItems.push(obj);
     }
   },
   created: function () {
