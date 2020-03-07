@@ -1,7 +1,7 @@
 <template>
   <div>
     <ul>
-      <li v-for="(todoItem, index) in todoItems" v-bind:key="todoItem.item" class="shadow">
+      <li v-for="(todoItem, index) in propsdata" v-bind:key="todoItem.item" class="shadow">
         <i class="checkBtn fas fa-check" v-bind:class="{ checkBtnCompleted: todoItem.completed }"
            v-on:click="toggleComplete(todoItem,index)" ></i>
 <!--        정리할 개념 1 : todoItem.completed 값이 trun이냐 false이냐 에 따라 textCompleted가 활성화 되거나 비활성화 됨.-->
@@ -16,11 +16,7 @@
 
 <script>
     export default {
-        data: function(){
-          return {
-            todoItems: []
-          }
-        },
+        props: ['propsdata'],
         methods: {
           removeTodo: function (todoItem, index) {
             localStorage.removeItem(todoItem);
@@ -38,15 +34,6 @@
             localStorage.removeItem(todoItem.item);
             console.log(JSON.stringify(todoItem.item));
             localStorage.setItem(todoItem.item, JSON.stringify(todoItem));
-          }
-        },
-        created: function () {
-          if(localStorage.length > 0){
-            for (var i = 0; i < localStorage.length; i++){
-              if(localStorage.key(i) !== 'loglevel:webpack-dev-server'){
-                this.todoItems.push(JSON.parse(localStorage.getItem(localStorage.key(i))));
-              }
-            }
           }
         }
     }
