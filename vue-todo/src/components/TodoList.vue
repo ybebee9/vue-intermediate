@@ -19,8 +19,7 @@
         props: ['propsdata'],
         methods: {
           removeTodo: function (todoItem, index) {
-            localStorage.removeItem(todoItem);
-            this.todoItems.splice(index, 1);
+            this.$emit('removeItem',todoItem,index);
           },
           toggleComplete: function (todoItem, index) {
             // 정리할 개념 2 : = ! 연산자
