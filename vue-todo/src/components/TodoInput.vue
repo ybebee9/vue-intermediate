@@ -1,7 +1,6 @@
 <template>
     <div class="inputBox shadow">
       <input type="text" v-model="newTodoItem" @keyup.enter="addTodo">
-<!--      <button v-on:click="addTodo">add</button>-->
       <span class="addContainer" v-on:click="addTodo">
         <i class="fas fa-plus addBtn"></i>
       </span>
@@ -18,7 +17,6 @@
         methods: {
           addTodo: function () {
             if(this.newTodoItem !== '') {
-              // addTodoItem은 하위컴포넌트에 있는 메서드가 아니라 상위 컴포넌트에서 인식할 이벤트 명...!
               this.$emit('addTodoItem',this.newTodoItem)
             }
             this.clearInput();

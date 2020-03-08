@@ -24,7 +24,6 @@ export default {
   methods: {
     addOneItem: function (todoItem) {
       var obj = { completed: false, item: todoItem }
-      // 텍스트값만 추가하는게 아니라 텍스트가 추가되었을때 Boolean값 까지 추가
       localStorage.setItem(todoItem, JSON.stringify(obj));
       this.todoItems.push(obj);
     },

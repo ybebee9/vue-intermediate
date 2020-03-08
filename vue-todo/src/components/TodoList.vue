@@ -4,7 +4,6 @@
       <li v-for="(todoItem, index) in propsdata" v-bind:key="todoItem.item" class="shadow">
         <i class="checkBtn fas fa-check" v-bind:class="{ checkBtnCompleted: todoItem.completed }"
            v-on:click="toggleComplete(todoItem,index)" ></i>
-<!--        정리할 개념 1 : todoItem.completed 값이 trun이냐 false이냐 에 따라 textCompleted가 활성화 되거나 비활성화 됨.-->
         <span v-bind:class="{ textCompleted: todoItem.completed }">{{ todoItem.item }}</span>
         <span class="removeBtn" v-on:click="removeTodo(todoItem, index)">
           <i class="fas fa-trash-alt"></i>
