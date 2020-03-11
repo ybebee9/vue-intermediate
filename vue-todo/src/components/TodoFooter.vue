@@ -9,7 +9,8 @@
         name: "TodoFooter",
         methods: {
           clearTodo: function () {
-            this.$emit('clearAll');
+            // this.$emit('clearAll');
+            this.$store.commit('clearAllItems');
           }
         }
     }
