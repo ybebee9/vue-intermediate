@@ -34,7 +34,7 @@
           }
         },
         methods: {
-          addTodo: function () {
+          addTodo () {
             if(this.newTodoItem !== '') {
               this.$emit('addTodoItem',this.newTodoItem)
               this.clearInput();
@@ -43,12 +43,12 @@
               this.showModal = !this.showModal;
             }
           },
-          clearInput: function () {
+          clearInput () {
             this.newTodoItem = '';
           }
         },
         components: {
-          Modal: Modal
+          Modal
         }
     }
 </script>
