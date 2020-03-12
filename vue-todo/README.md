@@ -3,7 +3,11 @@
 > 구현해본 Todo
 
 ## 개발환경
-
+![vuelogo](https://user-images.githubusercontent.com/48410197/76545641-7c050b00-64cd-11ea-8781-2722e3250239.png)
+![1200px-Npm-logo svg](https://user-images.githubusercontent.com/48410197/76545688-8fb07180-64cd-11ea-8c0b-1376971343db.png)
+![github-mark](https://user-images.githubusercontent.com/48410197/76545710-963ee900-64cd-11ea-9345-a25076f9d5fd.png)
+![IntelliJ_IDEA_Logo svg](https://user-images.githubusercontent.com/48410197/76545740-a35bd800-64cd-11ea-9c18-1e53dcbb88a4.png)
+![unnamed](https://user-images.githubusercontent.com/48410197/76545746-a5259b80-64cd-11ea-825b-edc2c2af2ac0.png)  
 
 ## 강의에서 다루는 내용
 
@@ -13,5 +17,5 @@
 > ES6를 이용한 효율적이고 간결한 뷰 코딩 방법
 > Vuex를 이용한 상태 관리의 이해 및 적용 방법
 
-강의정보 : Vue.js 중급 강의 - 장기효 a.k.a Captain Pangyo 
+강의정보 : Vue.js 중급 강의 - 장기효 a.k.a Captain Pangyo  
 링크 : https://www.inflearn.com/course/vue-pwa-vue-js-%EC%A4%91%EA%B8%89
