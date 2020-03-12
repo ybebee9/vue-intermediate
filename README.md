@@ -7,7 +7,7 @@
   - 화살표 함수 소개 및 실습
   - Enhanced Object Literals - 속성메서드의 축약 설명 
   - Modules
-* Vuex - 상태 관리 라이브러리에 대한 개념정리 및 실습을 통해 Vuex의 구조와 사용방법을 익힙니다.
+* Vuex - 상태 관리 라이브러리에 대한 개념정리 및 실습을 통해 Vuex의 구조와 사용 방법을 익힙니다.
   - Vuex 소개 및 Flux 등장 배경
   - state, getters, mutations, actions 적용 실습
   - Vuex - 헬퍼함수 및 ES6 Spread 연산자 적용 실습(mapState, mapGetters, mapMutations, mapActions)
