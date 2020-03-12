@@ -4,7 +4,7 @@
 
 ## 개발환경  
 
-<img alt="vue" src="https://user-images.githubusercontent.com/48410197/76545641-7c050b00-64cd-11ea-8781-2722e3250239.png" width="40" height="32"/><img alt="npm" src="https://user-images.githubusercontent.com/48410197/76545688-8fb07180-64cd-11ea-8c0b-1376971343db.png" width="40" height="32"/><img alt="github" src="https://user-images.githubusercontent.com/48410197/76545710-963ee900-64cd-11ea-9345-a25076f9d5fd.png" width="32" height="32"/><img alt="Intellij" src="https://user-images.githubusercontent.com/48410197/76545740-a35bd800-64cd-11ea-9c18-1e53dcbb88a4.png" width="32" height="32"/><img alt="Chrome" src="https://user-images.githubusercontent.com/48410197/76545746-a5259b80-64cd-11ea-825b-edc2c2af2ac0.png" width="32" height="32"/>
+<img alt="vue" src="https://user-images.githubusercontent.com/48410197/76545641-7c050b00-64cd-11ea-8781-2722e3250239.png" width="40" height="32"/><img alt="npm" src="https://user-images.githubusercontent.com/48410197/76545688-8fb07180-64cd-11ea-8c0b-1376971343db.png" width="50" height="32"/><img alt="github" src="https://user-images.githubusercontent.com/48410197/76545710-963ee900-64cd-11ea-9345-a25076f9d5fd.png" width="42" height="32"/><img alt="Intellij" src="https://user-images.githubusercontent.com/48410197/76545740-a35bd800-64cd-11ea-9c18-1e53dcbb88a4.png" width="32" height="32"/><img alt="Chrome" src="https://user-images.githubusercontent.com/48410197/76545746-a5259b80-64cd-11ea-825b-edc2c2af2ac0.png" width="32" height="32"/>
   
 ## 강의에서 다루는 내용
 
