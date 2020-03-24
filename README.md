@@ -31,7 +31,5 @@
 
 <br><br>
 
-## 강의정보
-
-> Vue.js 중급 강의 - 장기효 a.k.a Captain Pangyo  
+## 수강 강의정보
 > https://www.inflearn.com/course/vue-pwa-vue-js-%EC%A4%91%EA%B8%89
